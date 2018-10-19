@@ -1,0 +1,27 @@
+p {
+    font-family: Verdana;
+}
+
+@media(max-width:500px) {
+    div {
+        width: 100%;
+        background-color: blue;
+        color: bisque;
+    }
+}
+
+@media(min-width:501px) and (max-width:900px) {
+    div {
+        width: 100%;
+        background-color: red;
+        color: bisque;
+    }
+}
+
+@media(min-width:901px) {
+    div {
+        width: 100%;
+        background-color: palevioletred;
+        color: bisque;
+    }
+}
